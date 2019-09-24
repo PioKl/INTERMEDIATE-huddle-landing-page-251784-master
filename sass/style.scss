@@ -385,7 +385,11 @@ footer::before {
 
     .logo {
         filter: brightness(0) invert(1);
-        padding-top: 10%;
+        padding-top: 20%;
+    }
+
+    .logoSocial {
+        width: 60%;
     }
 
     &--p {
@@ -609,13 +613,13 @@ footer::before {
     .newsletter {
         grid-area: newsletter;
 
-        &--h2 {
-            font-size: 2rem;
-        }
+        // &--h2 {
+        //     font-size: 2rem;
+        // }
 
-        &--p {
-            max-width: 60%;
-        }
+        // &--p {
+        //     max-width: 68%;
+        // }
 
         &--form {
             display: flex;
@@ -637,15 +641,35 @@ footer::before {
             padding-top: 0%;
         }
 
-        &--p {
-            max-width: 60%;
-        }
+        // &--p {
+        //     max-width: 60%;
+        // }
     }
 
 
 
 }
 
+@media only screen and (min-width: 1200px) {
+
+    .social {
+        grid-area: social;
+
+        .logo {
+            padding-top: 0%;
+        }
+
+        &--p {
+            max-width: 60%;
+        }
+    }
+
+    .newsletter {
+        &--p {
+            max-width: 68%;
+        }
+    }
+}
 
 @media only screen and (min-width: 1512px) {
     .newsletter--inputEmail {

@@ -400,7 +400,11 @@ footer::before {
 .social .logo {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
-  padding-top: 10%;
+  padding-top: 20%;
+}
+
+.social .logoSocial {
+  width: 60%;
 }
 
 .social--p {
@@ -584,12 +588,6 @@ footer::before {
     -ms-grid-column: 2;
     grid-area: newsletter;
   }
-  .newsletter--h2 {
-    font-size: 2rem;
-  }
-  .newsletter--p {
-    max-width: 60%;
-  }
   .newsletter--form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -610,8 +608,20 @@ footer::before {
   .social .logo {
     padding-top: 0%;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+  .social {
+    grid-area: social;
+  }
+  .social .logo {
+    padding-top: 0%;
+  }
   .social--p {
     max-width: 60%;
+  }
+  .newsletter--p {
+    max-width: 68%;
   }
 }
 
