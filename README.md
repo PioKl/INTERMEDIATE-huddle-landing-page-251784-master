@@ -1,5 +1,7 @@
 # Frontend Mentor - Huddle landing page with alternating sections
 
+https://piokl.github.io/INTERMEDIATE-huddle-landing-page-251784-master/
+
 ![Header/intro section for the Huddle landing page with alternating sections](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
